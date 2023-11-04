@@ -1,0 +1,320 @@
+
+
+@media screen and (min-width: 1025px) {
+    .container {
+        display: grid;
+        grid-template-rows: auto auto;
+    }
+    
+    .section1 {
+        padding-top: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    
+        background: linear-gradient(51.75deg, #FFC2C2 0.66%, rgba(255, 255, 255, 0) 50.55%), linear-gradient(228.55deg, #FFC2C2 0.78%, rgba(255, 255, 255, 0) 98.79%);
+        box-shadow: 0px 5px 23px rgba(0, 0, 0, 0.25);
+        padding-bottom: 30px;
+    }
+    
+    .contact {
+        display: grid;
+        justify-content: center;
+    
+    }
+    
+    
+    
+    .box {
+        display: grid;
+        align-content: space-evenly;
+        width: 400px;
+        height: 574px;
+        border-radius: 50px;
+        background: rgba(255, 255, 255, 0.50);
+        box-shadow: 0px 4px 19px 0px rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(22px);
+        padding-top: 20px;
+    }
+    
+    .high {
+        color: #EC5F5F;
+    }
+    
+    .title {
+        margin-bottom: 30px;
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .InputText {
+    
+        margin-bottom: 20px;
+        width: 300px;
+        height: 40px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        border: none;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        color: rgba(0, 0, 0, 0.6);
+    }
+    
+    input.InputText {
+        padding-left: 10px;
+        color: #000;
+    }
+    
+    .desc {
+        resize: none;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        border: none;
+        padding-top: 20px;
+        /* เพิ่มระยะห่างด้านบน 20px */
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        color: rgba(0, 0, 0, 0.6);
+        margin-bottom: 30px;
+    }
+    
+    textarea.desc {
+        padding-left: 10px;
+        color: #000;
+    }
+    
+    .bt {
+    
+        width: 130px;
+        height: 35px;
+        background: #EC5F5F;
+        border: 2px solid #000000;
+        border-radius: 20px;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 25px;
+        color: #FFFFFF;
+        margin-bottom: 15px;
+    }
+    
+    .bt:hover {
+        background: #995858;
+    }
+    
+    .img {
+        max-width: 70%;
+    }
+    
+    .section2 {
+        display: grid;
+        grid-template-rows: 200px auto;
+        margin-bottom: 30px;
+    }
+    
+    .set {
+        display: grid;
+        align-items: center;
+    
+    }
+    
+    ul.icon {
+        white-space: nowrap;
+        margin-left: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    li.icon1 {
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    .iconSup {
+        width: 250px;
+    }
+    
+    .small {
+        width: 30px;
+        margin-right: 10px;
+    }
+    
+    .call {
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .container {
+        display: grid;
+        grid-template-rows: auto auto;
+    }
+    
+    .section1 {
+        padding-top: 30px;
+        display: grid;
+        grid-template-columns: 1fr ;
+        align-items: center;
+    
+        background: linear-gradient(51.75deg, #FFC2C2 0.66%, rgba(255, 255, 255, 0) 50.55%), linear-gradient(228.55deg, #FFC2C2 0.78%, rgba(255, 255, 255, 0) 98.79%);
+        box-shadow: 0px 5px 23px rgba(0, 0, 0, 0.25);
+        padding-bottom: 30px;
+    }
+    
+    .contact {
+        display: grid;
+        justify-content: center;
+    
+    }
+    
+    
+    
+    .box {
+        display: grid;
+        align-content: space-evenly;
+        width: 400px;
+        border-radius: 50px;
+        background: rgba(255, 255, 255, 0.50);
+        box-shadow: 0px 4px 19px 0px rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(22px);
+        padding-top: 20px;
+    }
+    
+    .high {
+        color: #EC5F5F;
+    }
+    
+    .title {
+        margin-bottom: 30px;
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .InputText {
+    
+        margin-bottom: 20px;
+        width: 300px;
+        height: 40px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        border: none;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        color: rgba(0, 0, 0, 0.6);
+    }
+    
+    input.InputText {
+        padding-left: 10px;
+        color: #000;
+    }
+    
+    .desc {
+        resize: none;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        border: none;
+        padding-top: 20px;
+        /* เพิ่มระยะห่างด้านบน 20px */
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        color: rgba(0, 0, 0, 0.6);
+        margin-bottom: 30px;
+    }
+    
+    textarea.desc {
+        padding-left: 10px;
+        color: #000;
+    }
+    
+    .bt {
+    
+        width: 130px;
+        height: 35px;
+        background: #EC5F5F;
+        border: 2px solid #000000;
+        border-radius: 20px;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 25px;
+        color: #FFFFFF;
+        margin-bottom: 15px;
+    }
+    
+    .bt:hover {
+        background: #995858;
+    }
+    
+    .img {
+        margin: auto;
+        max-width: 50%;
+    }
+    
+    .section2 {
+        display: grid;
+        grid-template-rows: 200px auto;
+        margin-bottom: 30px;
+    }
+    
+    .set {
+        display: grid;
+        align-items: center;
+    
+    }
+    
+    ul.icon {
+        white-space: nowrap;
+        display: grid;
+        justify-content: space-evenly;
+        align-items: center;
+      
+    }
+    
+    li.icon1 {
+        display: inline-block;
+        vertical-align: top;
+        margin-bottom: 50px;
+    }
+    
+    .iconSup {
+        width: 250px;
+    }
+    
+    .small {
+        width: 30px;
+        margin-right: 10px;
+    }
+    
+    .call {
+        text-align: center;
+    }
+}
+
