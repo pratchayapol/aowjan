@@ -16,7 +16,7 @@ function Home() {
                     </div>
                    <div className={homecss.containerBt}>
                         <div>
-                            <Link to="/" className={homecss.btLogCo1}>หิวข้าวแล้ว 123เริ่มกันเลย!!!</Link>
+                            <Link to="/" className={homecss.btLogCo1}>หิวข้าวแล้ว เริ่มกันเลย!!!</Link>
                         </div>
                    </div>
                 </div>
